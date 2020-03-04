@@ -1,0 +1,9 @@
+@mixin  border {
+    border: solid black 0.5px;   
+}
+
+@mixin background-picture {
+    background-size: 32px;
+    background-repeat: no-repeat;
+    background-position: center; 
+}

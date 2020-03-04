@@ -1,0 +1,58 @@
+@mixin responsive-main-div {
+    @media screen and (max-width:640px) {
+        width: 100vw;
+        height: 100vh; 
+    }
+    @media screen and (max-width:640px) and (orientation:landscape) {
+        width: 100vmax;
+        height: 100vmin;  
+    }
+    @media screen and (max-width:1024px) {
+        width: 100vw;
+        height: 100vh;   
+    }
+    @media screen and (max-width:1024px) and (orientation:landscape) {
+        width: 100vmax;
+        height: 100vmin;  
+    }
+    @media screen and (max-width:1400px) and (orientation:landscape) {
+        width: 100vmax;
+        height: 100vmin;  
+    } 
+}
+
+@mixin responsive-nav-link {
+    @media screen and (max-width:640px) {
+        height: 10vh;  
+    }
+    @media screen and (max-width:640px) and (orientation:landscape) {
+        height: 16vh;  
+    } 
+    @media screen and (max-width:1024px) {
+        height: 10vh; 
+    }
+    @media screen and (max-width:1024px) and (orientation:landscape) {
+        height: 12vh; 
+    }
+    @media screen and (max-width:1400px) and (orientation:landscape) {
+        height: 10vh; 
+    } 
+}
+
+@mixin responsive-nav-link-width {
+    @media screen and (max-width:640px) {
+        width: 30vw;  
+    }
+    @media screen and (max-width:640px) and (orientation:landscape) {
+        width: 30vw;  
+    } 
+    @media screen and (max-width:1024px) {
+        width: 30vw; 
+    }
+    @media screen and (max-width:1024px) and (orientation:landscape) {
+        width: 15vw; 
+    }
+    @media screen and (max-width:1400px) and (orientation:landscape) {
+        width: 15vw; 
+    }   
+}
