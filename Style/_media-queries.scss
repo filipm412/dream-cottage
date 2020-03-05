@@ -62,3 +62,28 @@
         background-size: 28px;   
     }  
 }
+
+@mixin main-picture-text {
+    @media screen and (max-width:640px) {
+        width: 100%;
+        margin-bottom: -15%;  
+        margin-top: -60%;
+    }
+    @media screen and (max-width:1024px) and (min-width:640px) {
+        width: 100%;  
+        margin-top: -20%;
+    } 
+}
+@mixin main-font {
+    @media screen and (max-width:640px) {
+        width: 90%;
+        font-size: 1em;
+        height: 15vh;     
+    }
+    @media screen and (max-width:1024px) and (min-width:640px) {
+        width: 90%;  
+        font-size: 1.2em;
+        height: 15vh;  
+         
+    } 
+}

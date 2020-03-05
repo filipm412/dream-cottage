@@ -5,7 +5,9 @@
 
 
 
-
+* {
+    font-family: $main-font;
+}
 body {
     margin: 0;
 }
@@ -62,5 +64,26 @@ body {
         background-image: url("../Images/background-2.jpg");
         @include background-picture;
         background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        #main-picture-text {
+            @include background-picture;
+            @include main-picture-text;
+            width: 70%;
+            height: 50vh;
+            background-image: url("../Images/main-title-text.png");
+            background-size: contain;
+        }
+        #main-picture-description {
+            @include main-font;
+            width: 60%;
+            height: 20vh;
+            text-align: center;
+            font-size: 1.3em;
+            color: $text-color-1;
+        }
     }
 }
