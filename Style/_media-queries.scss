@@ -66,12 +66,11 @@
 @mixin main-picture-text {
     @media screen and (max-width:640px) {
         width: 100%;
-        margin-bottom: -15%;  
-        margin-top: -60%;
+        height: 30vh;
     }
     @media screen and (max-width:1024px) and (min-width:640px) {
         width: 100%;  
-        margin-top: -20%;
+        height: 35vh;
     } 
 }
 @mixin main-font {

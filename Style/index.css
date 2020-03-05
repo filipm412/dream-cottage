@@ -229,26 +229,25 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   width: 70%;
-  height: 50vh;
+  height: 55vh;
   background-image: url("../Images/main-title-text.png");
   background-size: contain;
 }
 @media screen and (max-width: 640px) {
   #main-div #main-picture #main-picture-text {
     width: 100%;
-    margin-bottom: -15%;
-    margin-top: -60%;
+    height: 30vh;
   }
 }
 @media screen and (max-width: 1024px) and (min-width: 640px) {
   #main-div #main-picture #main-picture-text {
     width: 100%;
-    margin-top: -20%;
+    height: 35vh;
   }
 }
 #main-div #main-picture #main-picture-description {
   width: 60%;
-  height: 20vh;
+  height: 25vh;
   text-align: center;
   font-size: 1.3em;
   color: #e7e7e7;

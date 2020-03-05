@@ -73,14 +73,14 @@ body {
             @include background-picture;
             @include main-picture-text;
             width: 70%;
-            height: 50vh;
+            height: 55vh;
             background-image: url("../Images/main-title-text.png");
             background-size: contain;
         }
         #main-picture-description {
             @include main-font;
             width: 60%;
-            height: 20vh;
+            height: 25vh;
             text-align: center;
             font-size: 1.3em;
             color: $text-color-1;
