@@ -65,7 +65,7 @@ body {
         @include background-picture;
         background-size: cover;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         flex-direction: column;
 
@@ -76,6 +76,7 @@ body {
             height: 55vh;
             background-image: url("../Images/main-title-text.png");
             background-size: contain;
+            margin-top: 30px;
         }
         #main-picture-description {
             @include main-font;
@@ -103,6 +104,30 @@ body {
                 cursor: pointer;
                 color: $nav-color;
             } 
+        }
+        #button-holder {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 150px;
+            height: 50px;
+
+            a {
+                width: 20px;
+                height: 20px;
+                background-color: black;
+                border: {
+                    radius:50%;
+                    style:solid;
+                    color: $nav-color;
+                    width: 0.5px;
+                }
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: $nav-color;
+                }
+            }
         }
     }
 }

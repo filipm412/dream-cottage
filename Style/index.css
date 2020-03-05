@@ -220,7 +220,7 @@ body {
   background-position: center;
   background-size: cover;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
 }
@@ -232,6 +232,7 @@ body {
   height: 55vh;
   background-image: url("../Images/main-title-text.png");
   background-size: contain;
+  margin-top: 30px;
 }
 @media screen and (max-width: 640px) {
   #main-div #main-picture #main-picture-text {
@@ -299,6 +300,26 @@ body {
 #main-div #main-picture #book-now:hover {
   cursor: pointer;
   color: #2f3f31;
+}
+#main-div #main-picture #button-holder {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+}
+#main-div #main-picture #button-holder a {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #2f3f31;
+  border-width: 0.5px;
+}
+#main-div #main-picture #button-holder a:hover {
+  cursor: pointer;
+  background-color: #2f3f31;
 }
 
 /*# sourceMappingURL=index.css.map */
